@@ -1,0 +1,17 @@
+{
+    "name": "mocha-ts-test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "mocha --require ./test/helpers/require.js --reporter spec ./test/*.spec.js"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.18.0",
+        "chai": "^3.5.0",
+        "mocha": "^3.2.0",
+        "sinon": "^1.17.7",
+        "ts-node": "^2.0.0",
+        "typescript": "^2.1.4"
+    }
+}
